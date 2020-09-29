@@ -12,14 +12,14 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-//        System.out.println(new HashSet<>(Utils.findMultiplesLessThen(null, 1000, 3, 5)).stream().mapToInt(x -> ((Integer) x)).sum());
-        //System.out.println(Utils.createFibbonachi(4000000).stream().mapToInt(x -> ((Integer) x) % 2 == 0 ? (int) x : 0).sum());
-        //System.out.println(Utils.primeFactors(new BigInteger("600851475143")).keySet().stream().max(Comparator.naturalOrder() ).get());
-        //System.out.println(Utils.biggestPalindrom(3).stream().max(Comparator.naturalOrder() ).get());
-        //System.out.println(Utils.smallestPositiveDividedBy(1,20));
-        //System.out.println(Utils.sumSquareDifference(100));
-        //System.out.println(Utils.primeNubmer(10001));
-        /*System.out.println(Utils.sumOfadjacent(13, "73167176531330624919225119674426574742355349194934" +
+//        System.out.println(new HashSet<>(Utils.Utils.findMultiplesLessThen(null, 1000, 3, 5)).stream().mapToInt(x -> ((Integer) x)).sum());
+        //System.out.println(Utils.Utils.createFibbonachi(4000000).stream().mapToInt(x -> ((Integer) x) % 2 == 0 ? (int) x : 0).sum());
+        //System.out.println(Utils.Utils.primeFactors(new BigInteger("600851475143")).keySet().stream().max(Comparator.naturalOrder() ).get());
+        //System.out.println(Utils.Utils.biggestPalindrom(3).stream().max(Comparator.naturalOrder() ).get());
+        //System.out.println(Utils.Utils.smallestPositiveDividedBy(1,20));
+        //System.out.println(Utils.Utils.sumSquareDifference(100));
+        //System.out.println(Utils.Utils.primeNubmer(10001));
+        /*System.out.println(Utils.Utils.sumOfadjacent(13, "73167176531330624919225119674426574742355349194934" +
                 "96983520312774506326239578318016984801869478851843" +
                 "85861560789112949495459501737958331952853208805511" +
                 "12540698747158523863050715693290963295227443043557" +
@@ -39,8 +39,8 @@ public class Main {
                 "84580156166097919133875499200524063689912560717606" +
                 "05886116467109405077541002256983155200055935729725" +
                 "71636269561882670428252483600823257530420752963450"));*/
-        //System.out.println(Utils.pythagoreanTriplet());
-        //System.out.println(Utils.primesUnderFast(2000000).stream().mapToLong(o -> ((Integer) o).longValue()).sum());
+        //System.out.println(Utils.Utils.pythagoreanTriplet());
+        //System.out.println(Utils.Utils.primesUnderFast(2000000).stream().mapToLong(o -> ((Integer) o).longValue()).sum());
 
 
     }
