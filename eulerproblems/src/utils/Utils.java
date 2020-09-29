@@ -1,6 +1,7 @@
+package utils;
+
 import java.math.BigInteger;
 import java.util.*;
-import java.util.function.Predicate;
 
 import static java.lang.Math.pow;
 
